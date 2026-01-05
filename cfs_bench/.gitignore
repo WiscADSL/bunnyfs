@@ -1,0 +1,6 @@
+*.conf
+logarkv*
+__pycache__
+build/*
+!build/.gitignore
+results/
