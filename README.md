@@ -1,6 +1,6 @@
 # BunnyFS
 
-BunnyFS is a multi-tenant filesystem semi-microkernel that extends uFS with the *HARE* algorithm, which jointly allocates page cache and CPU cycles across tenants. You can learn more details about the HARE algorithm and BunnyFS in the FAST'26 paper [*Cache-Centric Multi-Resource Allocation for Storage Services*](https://www.usenix.org/conference/fast26/presentation/ye).
+BunnyFS is a multi-tenant filesystem semi-microkernel that extends uFS with the *HARE* algorithm, which jointly allocates page cache, SSD I/O bandwidth, and CPU cycles across tenants. You can learn more details about the HARE algorithm and BunnyFS in the FAST'26 paper [*Cache-Centric Multi-Resource Allocation for Storage Services*](https://www.usenix.org/conference/fast26/presentation/ye).
 
 **Please refer to [`ARTIFACT.md`](./ARTIFACT.md) for instructions to reproduce experiments.**
 
